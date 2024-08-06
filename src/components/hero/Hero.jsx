@@ -4,7 +4,7 @@ import { Button } from '../button/Button';
 const imgStyle ={
   height: '24rem',
   width:'100%'
-  };
+};
   
 export function Hero(){
     return (
