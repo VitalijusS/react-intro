@@ -1,4 +1,4 @@
-import { FeaturesBigOne } from "../featuresBigOne/FeaturesBigOne.jsx";
+import { FeaturesBigOne } from "./components/featuresBigOne/FeaturesBigOne.jsx";
 import { Features } from "./components/features/Features.jsx";
 import { FeaturesMap } from "./components/featuresMap/FeaturesMap.jsx";
 import { Footer } from "./components/footer/Footer.jsx";

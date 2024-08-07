@@ -4,12 +4,9 @@ import style from './Features.module.css';
 export function FeaturesMap(params){
     return (
         <section className={style.featuresList}>
-          {params.list.map(({icon, title,description}, index)=>
+          {params.list.map((item, index)=>
             <Feature 
-              key={index} 
-              icon={icon} 
-              title={title} 
-              description={description}/>
+              key={index} data={item}/>
           )}
           
         </section>
