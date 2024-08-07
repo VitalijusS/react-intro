@@ -1,0 +1,29 @@
+.featuresList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+.feature {
+    border-radius: 0.5rem;
+    background-color: #eee;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.icon {
+    background-color: #ddd;
+    font-size: 1.2rem;
+    line-height: 2.4em;
+    width: 2.4em;
+    text-align: center;
+    border-radius: 0.3em;
+}
+.title {
+    font-size: 1.3rem;
+}
+.description {
+    font-size: 1rem;
+}
